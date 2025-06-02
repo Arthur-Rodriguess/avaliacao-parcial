@@ -106,7 +106,6 @@ footer > p > a{
 }
 
 @media (max-width: 600px) {
-
   .menu ul li {
     display: block; /* Menu em lista vertical */
     margin: 10px 0;
