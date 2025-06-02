@@ -46,11 +46,13 @@ header {
 #banner-principal{
     width: 100%;
 }
+
 .container{
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: center; */
     justify-content: space-around;
-    padding: 40px;
+    padding: 20px;
     background-color: #ffffff;
 }
 
@@ -106,9 +108,13 @@ footer > p > a{
 }
 
 @media (max-width: 600px) {
-  .menu ul li {
+  header {
     display: block; /* Menu em lista vertical */
     margin: 10px 0;
+  }
+
+  #banner-principal {
+    width: 100%;
   }
 
   .container {
@@ -142,6 +148,7 @@ footer > p > a{
     width: 100%;
     max-width: 100%;
   }
+  
 
   footer {
     font-size: 14px;
