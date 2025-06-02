@@ -106,10 +106,6 @@ footer > p > a{
 }
 
 @media (max-width: 600px) {
-  header {
-    flex-direction: column;
-    text-align: center;
-  }
 
   .menu ul li {
     display: block; /* Menu em lista vertical */
